@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-based TTRPG player character companion tool </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Main content section -->
+    <section id="main-section" class="main-section">
+        <h1>Web-based TTRPG player character companion tool</h1>
+        <p>Welcome to the Web-based TTRPG player character companion tool!</p>
+        <section id="character-section" class="character-section">
+            <h2>Character Information</h2>
+            <p>This is where you can view and manage your character's details.</p>
+            <!-- Character form for adding/editing character information -->
+            <form id="character-form">
+                <label for="character-name-input">Character Name:</label>
+                <input type="text" id="character-name-input" name="character-name" required>
+                <label for="character-class">Character Stat:</label>
+                <select id="character-class" name="character-class" required>
+                    <option value="">Select a stat</option>
+                    <option value="strength">Strength</option>
+                    <option value="dexterity">Dexterity</option>
+                    <option value="constitution">Constitution</option>
+                    <option value="intelligence">Intelligence</option>
+                    <option value="wisdom">Wisdom</option>
+                    <option value="charisma">Charisma</option>
+                    <!-- Add more stats as needed -->
+                </select>
+                <!-- Stat value input -->
+                <input type="number" id="character-stat-value" name="character-stat-value" min="0" max="30" required>
+                <button type="submit">Save Character</button>
+            </form>
+            <!-- character HP -->
+            <div id="character-hp"></div>
+            <button id="create-character-btn">Create New Character</button>
+            <button id="load-character-btn">Load Existing Character</button>
+        </section>
+    </section>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
