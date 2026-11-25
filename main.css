@@ -4,3 +4,29 @@
   gap: 20px;
   padding: 20px;
 }
+
+#roll-dice-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#roll-dice-btn:hover {
+  background-color: #0056b3;
+}
+
+#create-character-btn {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#create-character-btn:hover {
+  background-color: #007bff;
+}
