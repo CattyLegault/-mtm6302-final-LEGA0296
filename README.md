@@ -23,3 +23,7 @@ F4: Roll dice The dice roller panel appears below the character panel. There is 
 <!-- final -->
 
 Afterwards, the radio button is deselected. Information the app needs and remembers Between sessions, the app will remember the most recent state of the most recently created character, including name, current and maximum HP, and the values of the six core statistics. It will not remember any dice rolls.
+
+<!-- Figma -->
+
+## https://www.figma.com/design/qUDZ82xF56FtlGUPDFShYT/Interactive-DnD-stats?node-id=0-1&p=f&t=RkDlogq3B20OcvFM-0
