@@ -1,8 +1,55 @@
-.main-section {
+.layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding: 20px;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+form {
+  border: none;
+  padding: 0;
+}
+
+#character-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#character-form label {
+  font-weight: bold;
+}
+
+#character-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#character-form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#character-display {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+#character-display img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#character-display h2 {
+  margin-top: 0;
+}
+
+#character-display p {
+  margin: 0.5rem 0;
 }
 
 #roll-dice-btn {
