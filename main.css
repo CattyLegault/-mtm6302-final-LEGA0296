@@ -5,6 +5,24 @@
   align-items: start;
 }
 
+#body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #ffffff;
+  margin: 0;
+  padding: 1rem;
+  background-image: url("images/wood-texture.jpg");
+  background-size: cover;
+}
+
+#main-section {
+  padding: 26px;
+  border-radius: 18px;
+  align-self: start;
+}
+
 form {
   border: none;
   padding: 0;
@@ -51,20 +69,6 @@ form {
 #character-display p {
   margin: 0.5rem 0;
 }
-
-#roll-dice-btn {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#roll-dice-btn:hover {
-  background-color: #0056b3;
-}
-
 #create-character-btn {
   background-color: #0056b3;
   color: #fff;

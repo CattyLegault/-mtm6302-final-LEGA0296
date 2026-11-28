@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
-<body>
+<body id="body">
     <!-- Main content section -->
     <div id="main-content" class="main-content">
         <header>
             <h1>Web-based TTRPG player character companion tool</h1>
         </header>
         <div id="layout">
-            <section id="main-section" class="main-section">
+            <aside id="main-section" class="main-section">
                 <section id="character-section" class="character-section">
                     <h2>Character Creation</h2>
                     <p>This is where you can view and manage your character's details.</p>
@@ -24,8 +24,14 @@
                         <input type="text" id="character-name" name="character-name" required>
                         <label for="character-class">Character Class:</label>
                         <input type="text" id="character-class" name="character-class" required>
-                        <label for="character-level">Character Level:</label>
-                        <input type="number" id="character-level" name="character-level" min="1" max="20" required>
+                        <label for="hp">HP</label><select id="hp" name="hp">
+                            <option value="number">5</option>
+                            <option value="number">10</option>
+                            <option value="number">15</option>
+                            <option value="number">20</option>
+                            <option value="number">25</option>
+                            <option value="number">25</option>
+                        </select>
                         <!-- Character form for adding/editing character information -->
                         <!-- buttons -->
                         <button id="create-character-btn">Create Character</button>
@@ -36,7 +42,7 @@
                         <div id="character-image"></div>
                     </div>
                 </section>
-            </section>
+            </aside>
         </div>
 
 </body>
