@@ -1,8 +1,8 @@
 .layout {
   display: grid;
-  grid-template-columns: 1.15fr 1fr;
-  gap: 1.5rem;
-  align-items: start;
+  grid-template-columns: 260px 1fr;
+  gap: 32px;
+  margin-top: 36px;
 }
 
 #body {
@@ -21,6 +21,16 @@
   padding: 26px;
   border-radius: 18px;
   align-self: start;
+}
+
+#h1 {
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 22px 0 7px;
 }
 
 form {
